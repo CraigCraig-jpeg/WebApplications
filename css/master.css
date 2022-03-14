@@ -4,10 +4,41 @@ body {
     background-color:azure;
 }
 hr {
-    background-color: white;
+    background-color: azure;
     border-style: dotted none none;
     border-color: grey;
     border-width: 5px;
     height: 0px;
     width: 5%;
 }
+
+h1 {
+    color: whitesmoke;
+}
+
+h3 {
+    color: #66bfbf;
+}
+
+a {
+    color: grey;
+}
+
+.hero-image {
+    background-image: url("../html/Whale.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
