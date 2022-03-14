@@ -21,7 +21,7 @@ h3 {
 }
 
 a {
-    color: grey;
+    color: paleturquoise;
 }
 
 .hero-image {
@@ -38,7 +38,7 @@ a {
     text-align: left;
     position: absolute;
     top: 50%;
-    left: 28%;
+    left: 32%;
     transform: translate(-50%, -50%);
     color: white;
   }
