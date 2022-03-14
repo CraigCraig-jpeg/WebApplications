@@ -1,0 +1,13 @@
+
+body {
+    color:grey;
+    background-color:azure;
+}
+hr {
+    background-color: white;
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 5px;
+    height: 0px;
+    width: 5%;
+}
