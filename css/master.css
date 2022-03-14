@@ -42,3 +42,22 @@ a {
     transform: translate(-50%, -50%);
     color: white;
   }
+
+  .hero-image-contact {
+    background-image: url("../html/JellyFish.webp");
+    background-color: #cccccc;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-text-contact {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
