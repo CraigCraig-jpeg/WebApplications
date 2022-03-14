@@ -37,6 +37,28 @@ a:hover {
     position: relative;
   }
 
+  .container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .overlay {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 500px;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
   .hero-text {
     text-align: left;
     position: absolute;
