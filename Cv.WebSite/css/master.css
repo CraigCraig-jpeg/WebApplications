@@ -23,6 +23,9 @@ h3 {
 a {
     color: paleturquoise;
 }
+a:hover {
+  color: darkturquoise;
+}
 
 .hero-image {
     background-image: url("../html/Whale.jpg");
