@@ -1,0 +1,368 @@
+/* ############################# */
+/* ##        OverAll          ## */
+/* ############################# */
+
+@font-face {
+    font-family: myFirstFont;
+    src: url("../fonts/Pacifico-Regular/Pacifico-Regular.ttf");
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url("../fonts/RockSalt-Regular/RockSalt-Regular.ttf");
+}
+@font-face {
+    font-family: myThirdFont;
+    src: url("../fonts/ReenieBeanie-Regular/ReenieBeanie-Regular.ttf");
+}
+@font-face {
+    font-family: myFourthFont;
+    src: url("../fonts/Open-Sans/static/OpenSans/OpenSans-Light.ttf");
+}
+body {
+    margin: 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+/* @media screen and (min-width: 600px) {
+    p {
+        flex-direction: row;
+    }
+}
+  
+  @media screen and (min-width: 400px) {
+      ul {
+        flex-direction: row;
+        min-width: 600px;
+      }
+} */
+
+/* ############################# */
+/* ##       Top Division      ## */
+/* ############################# */
+
+.a19 {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    position: relative;
+}
+  
+  .a1::after { 
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    display: block;
+    background: none repeat scroll 0 0 transparent;
+    height: 2px;
+    width: 0;
+    background: linear-gradient(to right, rgb(22, 255, 1) 0%, rgb(41, 201, 250) );
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+  
+  .a2:hover::after { 
+    width: 100%; 
+    left: 0; 
+}  
+
+.hero_background{
+   background-image: url("../images/avatar.gif");
+   background-color: #F3E9DD;
+   height: 900px;
+   width: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+.hero_text {
+    position: absolute;
+    color: aliceblue;
+    left: 40%;
+    top: 20% ;
+    text-align: center;
+    text-justify: inter-word;
+    font-size: 30px;
+    font-family: myFirstFont;
+    font-size: 50px;
+}
+.hero_text2 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+.hero_text3 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+#programmer {
+    position: absolute;
+    text-align: center;
+    text-justify: inter-word;
+    left: 15%;
+    bottom: 10px;
+}
+
+/* ############################# */
+/* ##           menu          ## */
+/* ############################# */
+
+.ul1 {
+    margin: 100px auto 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0;     
+    min-width: 200px;
+    margin: 0px;
+    padding: 0 40px;
+    top: 20px;
+    right: 0;
+    position: absolute;
+    font-family: myFirstFont;
+  }
+  
+  @media screen and (min-width: 400px) {
+      ul {
+        flex-direction: row;
+        min-width: 600px;
+      }
+  }
+  
+  .a3 {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    transition: all 0.4s ease;
+    padding: 30px;
+  }
+  
+  .a4::after { 
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #9ebaf6;
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  }
+  
+  .a5:hover { color: #9ebaf6; }
+  .a6:hover::after { width: 100%; }
+
+/* ############################# */
+/* ##         middle          ## */
+/* ############################# */
+
+.hero_middleground{
+    height: 1300px;
+    position: relative;
+    color: #F3E9DD;
+    left: 50px;
+    position: relative;
+ }
+
+ .hero_back {
+    color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* ############################# */
+/* ##         Footer          ## */
+/* ############################# */
+
+.ul2 {
+    margin: 100px auto 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    text-align: center;
+    padding: 0;     
+    min-width: 200px;
+    margin: 0px;
+    padding: 0 40px;
+    right: 0;
+    bottom: 0;
+    position: relative;
+    font-family: myFirstFont;
+  }
+
+.a8 {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    transition: all 0.4s ease;
+    padding: 30px;
+  }
+  
+  .a9::after { 
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #9ea7f6;
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  }
+  
+  .a10:hover { color: #9ebaf6; }
+  .a11:hover::after { width: 100%; }
+  
+.middle_container {
+    position: relative;
+    font-family: myFourthFont;
+    color: aliceblue;
+    font-size: 25px;
+}
+.profile {
+}
+#ProfilePicture {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    padding-bottom: 40px;
+}
+
+#meme {
+    position: absolute;
+    top: 90px;
+    right: 120px;
+    padding-bottom: 40px;
+    width: 600px;
+}
+#img2 {
+    position: relative;
+    color: black;
+    background-color: black;
+    height: 1800px;
+    border-color: black;
+}
+
+#img {
+    position: absolute;
+    color: black;
+    background-color: #F3E9DD;
+    height: 1800px;
+    border-color: black;
+    right : 7px;
+    left : 7px;
+}
+
+.skills {
+    font-family: myThirdFont;
+    color : #B7CADB;
+}
+
+.skill-row {
+    position: relative;
+    left: 50px;
+    font-family: myThirdFont;
+    color : #B7CADB;
+}
+
+.order {
+    position: relative;
+    left :50px;
+}
+
+/* ############################# */
+/* ##         Footer          ## */
+/* ############################# */
+          
+
+     
+.link-svgline a svg.link-svgline {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    height: 20px; 
+    transition: stroke-dashoffset 0.3s ease-in-out;
+    transform: translateY(-90%);
+    fill: none;
+    stroke: #b1d474;
+    stroke-width: 5;
+    stroke-dasharray: 400px; 
+    stroke-dashoffset: 400px;
+  }
+  
+  .link-svgline a:hover svg.link-svgline {
+    stroke-dashoffset: 0px; 
+  }
+
+            
+  .svg-wrap {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+  }
+        
+  body {
+    /* padding: 100px 50px; */
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+    line-height: 1.8;
+    color: #fff;
+    background-color: #7eb4e2;
+  }
+  
+  a {
+    color: #404d5b;
+    text-decoration: none;
+    outline: none;
+  }
+  
+  section {
+    position: relative;
+    z-index: 1; /* needed for setting pseudo-element z-index */
+    overflow: hidden;
+    backface-visibility: hidden;
+  }
+  
+  section a {
+    position: relative;
+    display: inline-block;
+    outline: none;
+    color: #404d5b;
+    vertical-align: bottom;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  
+  section a::before,
+  section a::after {
+    pointer-events: none;
+    backface-visibility: hidden;
+    font-smoothing: antialiased;
+  }
+        
+      
