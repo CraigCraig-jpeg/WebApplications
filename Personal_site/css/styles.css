@@ -6,6 +6,18 @@
     font-family: myFirstFont;
     src: url("../fonts/Pacifico-Regular/Pacifico-Regular.ttf");
 }
+@font-face {
+    font-family: mySecondFont;
+    src: url("../fonts/RockSalt-Regular/RockSalt-Regular.ttf");
+}
+@font-face {
+    font-family: myThirdFont;
+    src: url("../fonts/ReenieBeanie-Regular/ReenieBeanie-Regular.ttf");
+}
+@font-face {
+    font-family: myFourthFont;
+    src: url("../fonts/Open-Sans/static/OpenSans/OpenSans-Light.ttf");
+}
 body {
     margin: 0;
 }
@@ -61,7 +73,7 @@ h1 {
 .hero_background{
    background-image: url("../images/ol86sgsveum81.png");
    background-color: #cccccc;
-   height: 700px;
+   height: 1000px;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -101,11 +113,11 @@ h1 {
 /* ##           menu          ## */
 /* ############################# */
 
-ul {
+.ul1 {
     margin: 100px auto 0;
     list-style: none;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     text-align: center;
     padding: 0;     
@@ -141,7 +153,7 @@ ul {
     content: "";
     position: absolute;
     height: 2px;
-    background-color: #f69ec4;
+    background-color: #9ebaf6;
     width: 0;
     left: 50%;
     bottom: 0;
@@ -149,11 +161,109 @@ ul {
     transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
   }
   
-  .a5:hover { color: #f69ec4; }
+  .a5:hover { color: #9ebaf6; }
   .a6:hover::after { width: 100%; }
 
 /* ############################# */
-/* ##           menu          ## */
+/* ##         middle          ## */
 /* ############################# */
+
+.hero_middleground{
+    height: 1300px;
+    position: relative;
+ }
+
+.hero_back {
+    background-image: url("../images/3.jpg");
+    height: 1800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* ############################# */
+/* ##         Footer          ## */
+/* ############################# */
+
+.ul2 {
+    margin: 100px auto 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    text-align: center;
+    padding: 0;     
+    min-width: 200px;
+    margin: 0px;
+    padding: 0 40px;
+    right: 0;
+    bottom: 0;
+    position: relative;
+    font-family: myFirstFont;
+  }
+
+.a8 {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    transition: all 0.4s ease;
+    padding: 30px;
+  }
   
+  .a9::after { 
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #9ea7f6;
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  }
   
+  .a10:hover { color: #9ebaf6; }
+  .a11:hover::after { width: 100%; }
+  
+.middle_container {
+    position: relative;
+    font-family: myFourthFont;
+    color: aliceblue;
+    font-size: 25px;
+    
+}
+.profile {
+    display: inline;
+}
+#ProfilePicture {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    padding-bottom: 40px;
+}
+
+#meme {
+    position: absolute;
+    top: 90px;
+    right: 100px;
+    padding-bottom: 40px;
+}
+
+.skills {
+    white-space: nowrap;
+}
+
+.skill-row {
+    position: relative;
+    left: 50px;
+}
+
+.order {
+    position: relative;
+    left :50px;
+}
