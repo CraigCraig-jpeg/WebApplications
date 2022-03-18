@@ -1,3 +1,159 @@
-body {
-    color: aliceblue;
+/* ############################# */
+/* ##        OverAll          ## */
+/* ############################# */
+
+@font-face {
+    font-family: myFirstFont;
+    src: url("../fonts/Pacifico-Regular/Pacifico-Regular.ttf");
 }
+body {
+    margin: 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+@media screen and (min-width: 600px) {
+    p {
+        flex-direction: row;
+    }
+}
+  
+  @media screen and (min-width: 400px) {
+      ul {
+        flex-direction: row;
+        min-width: 600px;
+      }
+}
+
+/* ############################# */
+/* ##       Top Division      ## */
+/* ############################# */
+
+.a {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    position: relative;
+}
+  
+  .a1::after { 
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    display: block;
+    background: none repeat scroll 0 0 transparent;
+    height: 2px;
+    width: 0;
+    background: linear-gradient(to right, rgb(22, 255, 1) 0%, rgb(41, 201, 250) );
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+  
+  .a2:hover::after { 
+    width: 100%; 
+    left: 0; 
+}  
+
+.hero_background{
+   background-image: url("../images/ol86sgsveum81.png");
+   background-color: #cccccc;
+   height: 700px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+.hero_text {
+    position: absolute;
+    color: aliceblue;
+    left: 40%;
+    top: 20% ;
+    text-align: center;
+    text-justify: inter-word;
+    font-size: 30px;
+    font-family: myFirstFont;
+    font-size: 50px;
+}
+.hero_text2 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+.hero_text3 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+#programmer {
+    position: absolute;
+    text-align: center;
+    text-justify: inter-word;
+    left: 15%;
+    bottom: 10px;
+}
+
+/* ############################# */
+/* ##           menu          ## */
+/* ############################# */
+
+ul {
+    margin: 100px auto 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0;     
+    min-width: 200px;
+    margin: 0px;
+    padding: 0 40px;
+    top: 20px;
+    right: 0;
+    position: absolute;
+    font-family: myFirstFont;
+  }
+  
+  @media screen and (min-width: 400px) {
+      ul {
+        flex-direction: row;
+        min-width: 600px;
+      }
+  }
+  
+  .a3 {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    transition: all 0.4s ease;
+    padding: 30px;
+  }
+  
+  .a4::after { 
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #f69ec4;
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  }
+  
+  .a5:hover { color: #f69ec4; }
+  .a6:hover::after { width: 100%; }
+
+/* ############################# */
+/* ##           menu          ## */
+/* ############################# */
+  
+  
