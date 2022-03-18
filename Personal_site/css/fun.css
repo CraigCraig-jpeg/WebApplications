@@ -240,8 +240,7 @@ h1 {
     color: aliceblue;
     font-size: 25px;
 }
-.profile {
-}
+
 #ProfilePicture {
     position: relative;
     top: 10px;
@@ -362,7 +361,7 @@ h1 {
   section a::after {
     pointer-events: none;
     backface-visibility: hidden;
-    font-smoothing: antialiased;
+    
   }
         
       
