@@ -3,22 +3,54 @@
     
 }
 
+@font-face {
+    font-family: myFirstFont;
+    src: url("../fonts/Caesar/CaesarDressing-Regular.ttf");
+}
+@font-face {
+    font-family: MonBold;
+    src: url("../fonts/Rat/static/Montserrat-Bold.ttf");
+}
+@font-face {
+    font-family: Monlight;
+    src: url("../fonts/Rat/static/Montserrat-Medium.ttf");
+}
+
 #features {
-    background-color: rgba(235,237,227,1);
-    
+    /* background-color: rgba(235,237,227,1); */
+    background: linear-gradient(to left, rgba(2,0,36,1) 0%, white 0%, rgba(235,237,227,1) 100%); 
+    padding: 7% 15%;
+
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
 }
 
 body {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(139,226,233,1) 0%, rgba(235,237,227,1) 100%); 
-    font-family: 'Montserrat', sans-serif;
+    font-family: MonBold, sans-serif;
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: MonBold, sans-serif;
     font-size: 3.5rem;
     line-height: 1.5;
     color: whitesmoke;
+}
+
+h3 {
+    font-family: MonBold;
+    font-size: 1.8rem;
+    
+}
+
+p {
+    font-family: Monlight, sans-serif;
+    color: #8f8f8f;
+    font-size: 1.3rem;
 }
 
 .container-fluid {
@@ -31,7 +63,6 @@ h1 {
 
 .navbar-brand{
     font-size: 2.5rem;
-    
 }
 
 .nav-item {
@@ -39,7 +70,7 @@ h1 {
 }
 
 .nav-link {
-    font-family: 'Caesar Dressing', cursive;
+    font-family: myFirstFont;
     font-size: 1.2rem;
 }
 
@@ -48,5 +79,13 @@ h1 {
 }
 
 .title-image {
-    width: 600px;
+    width: 700px;
+    padding: 0% 20% 20% 0%;
+}
+
+.icons {
+    color: rgb(170, 229, 233);
+}
+.icons:hover {
+    color : rgb(121, 218, 224);
 }
