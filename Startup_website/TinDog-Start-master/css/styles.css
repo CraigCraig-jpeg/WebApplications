@@ -41,6 +41,13 @@ h1 {
     color: whitesmoke;
 }
 
+h2 {
+    font-family: MonBold, sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: whitesmoke;
+}
+
 h3 {
     font-family: MonBold;
     font-size: 1.8rem;
@@ -89,3 +96,15 @@ p {
 .icons:hover {
     color : rgb(121, 218, 224);
 }
+
+#testimonials {
+    padding: 7% 15% 7%;
+    text-align: center;
+    color: aliceblue;
+    background: rgba(139,226,233,1) ;
+}
+
+.testimonial-image {
+    width: 20%;
+}
+
