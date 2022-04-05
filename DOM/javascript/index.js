@@ -1,2 +1,2 @@
-document.querySelectorAll("h1").style.color = "red" ; 
+var x = document.querySelectorAll("h1").style.color = "red" ; 
 
